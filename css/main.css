@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  height: 100%;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  color: black;
+  background-color: white;
+}
+.top_page {
+  width: 100%;
+  min-height: 900px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(237, 164, 24, 1),
+    rgba(237, 164, 24, 0)
+  );
+}
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 75px;
+  padding-top: 105px;
+  padding-right: 65px;
+}
+.logo {
+  display: block;
+  width: 250px;
+  height: 50px;
+  padding: 5px;
+  position: absolute;
+  top: 105px;
+  left: 130px;
+}
+/*a.logo:hover {
+  background-color: rgba(237, 164, 24, 1);
+  /*width: 250px;
+  height: 50px;
+  padding: 5px;
+  border: 2px solid rgb(237, 84, 24);
+  border-radius: 5px;
+}*/
+.navigation_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: auto 0;
+  padding: 0;
+  margin-left: 150px;
+  list-style: none;
+}
+.navigation_list_item {
+  display: block;
+  padding: 5px;
+  min-width: fit-content;
+  font-weight: 1000;
+  font-size: 30px;
+  line-height: 35px;
+  color: black;
+  text-decoration: none;
+}
+a.navigation_list_item:hover {
+  background-color: rgba(237, 164, 24, 1);
+  /*width: 250px;
+  height: 50px;*/
+  padding: 5px;
+  border: 2px solid rgb(237, 84, 24);
+  border-radius: 5px;
+}
+.basket {
+  position: absolute;
+  top: 105px;
+  right: 130px;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+}
+.cont_header {
+  display: flex;
+  padding-top: 25px;
+  padding-left: 130px;
+  gap: 20px;
+}
+.header_list {
+  width: 600 px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.text_header_first {
+  margin: 0;
+  padding: 0;
+  padding-top: 190px;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 75px;
+}
+.text_header_second {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 50px;
+}
+.button_header {
+  display: block;
+  margin: 0;
+  padding: 25px;
+  font-family: serif;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 30px;
+  color: white;
+  background-color: red;
+  border-radius: 45px;
+}
+.burger_foto {
+  margin-left: 10%;
+}
+.main_page {
+  width: 100%;
+  min-height: 900px;
+  text-align: center;
+}
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.catalog_title {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 55px;
+  color: black;
+}
+.catalog_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 15px;
+  margin-top: 40px;
+  gap: 40px 30px;
+  list-style: none;
+}
+.catalog_item_caption {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 500;
+  padding-top: 15px;
+  color: black;
+}
+.bottom_page {
+  width: 100%;
+  min-height: 450px;
+  text-align: center;
+  background-image: linear-gradient(
+    180deg,
+    rgba(237, 164, 24, 0),
+    rgba(237, 164, 24, 1)
+  );
+}
+.footer_list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 150px;
+  gap: 150px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  justify-content: center;
+  list-style: none;
+}
+.footer_items {
+  text-decoration: none;
+  color: black;
+}
+.footer_items_d {
+  text-decoration: none;
+  color: black;
+}
+a.footer_items_d:hover {
+  background-color: rgba(237, 164, 24, 1);
+  /*width: 250px;
+  height: 50px;*/
+  padding: 5px;
+  border: 2px solid rgb(237, 84, 24);
+  border-radius: 5px;
+}
+.info_footer {
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  list-style: none;
+}
+.info_footer_text {
+  padding-top: 25px;
+}
+.social_links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  list-style: none;
+}
